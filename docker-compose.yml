@@ -3,8 +3,8 @@ services:
     image: mysql:8
     container_name: mysql-db
     environment:
-      MYSQL_ROOT_PASSWORD: docker
-      MYSQL_DATABASE: klustudentdb
+      MYSQL_ROOT_PASSWORD: exam
+      MYSQL_DATABASE: coursedb
     ports:
       - "3308:3306"
     volumes:
