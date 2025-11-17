@@ -28,10 +28,6 @@ services:
     restart: on-failure
     networks:
       - springboot-mysql-net
-    environment:
-      SPRING_DATASOURCE_URL: "jdbc:mysql://mysqldb:3306/coursedb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC"
-      SPRING_DATASOURCE_USERNAME: "root"
-      SPRING_DATASOURCE_PASSWORD: "exam"
 
   frontend:
     image: mounikav24/2300032943-final-frontend:latest
