@@ -1,5 +1,5 @@
 body {
-  background: #f5f6fa;
+  background: #9cabe9;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -58,17 +58,17 @@ body {
 
 .table th {
   background: #3498db;
-  color: white;
+  color: rgb(14, 13, 13);
   padding: 12px;
 }
 
 .table td {
   padding: 12px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #030303;
 }
 
 .table tr:hover {
-  background: #ecf0f1;
+  background: #020202;
 }
 
 .search-box {
